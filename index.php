@@ -24,7 +24,7 @@ function displayJapaneseCars($csvFilePath)
     while (($row = fgetcsv($file)) !== false) {
         if ($isFirstRow) {
             // Display header row
-            echo "<thead><tr style='background-color: #f2f2f2; font-weight: bold;'>";
+            echo "<thead><tr>";
             foreach ($row as $header) {
                 echo '<th>' . htmlspecialchars($header) . '</th>';
             }
