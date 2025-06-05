@@ -50,9 +50,9 @@ function displayJapaneseCars($csvFilePath)
             $googleImageUrl =
                 'https://www.google.com/search?tbm=isch&q=' . $searchQuery;
 
-            echo "<td><a href='" .
+            echo "<td><a class='image-link' href='" .
                 $googleImageUrl .
-                "' target='_blank' style='color: #4CAF50; text-decoration: none;'>🔍 Images</a></td>";
+                "' target='_blank'>Search Images</a></td>";
             echo '</tr>';
         }
     }
@@ -137,6 +137,10 @@ h1 {
 p {
     font-size:1.2rem;
     margin:0 0 2rem;
+}
+.image-link {
+    color: #4CAF50; 
+    text-decoration: none;
 }
 
 </style> 
