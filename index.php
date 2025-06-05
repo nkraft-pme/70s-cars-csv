@@ -67,86 +67,10 @@ function displayJapaneseCars($csvFilePath)
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Japanese Cars from the 1970s</title>
-<style>
-body {
-    background-color: #f9f9f9;
-    color: #333;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    line-height: 1.4;
-    margin: 0;
-    padding: 0;
-}
-article {
-    width:100%;
-    max-width:960px;
-    margin: 2rem auto;
-    padding: 1rem;
-}
-table {
-    background-color: white;
-    border-collapse: collapse;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    max-width:960px;
-    overflow: hidden;
-    width:100%;
-}
-th {
-    background-color: #4CAF50;
-    color: white;
-    text-align: left;
-}
-th, td {
-    padding:10px;
-    margin:0;
-}
-tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
-tr:hover {
-    background-color: #e8f5e8;
-}
-h2 {
-    color: #333;
-    text-align: center;
-}
-h1 {
-    font-family: "Monoton", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 2.8rem;
-    letter-spacing:.25rem;
-    word-spacing:1rem;
-}
-.center {
-    text-align:center;
-}
-.monoton-regular {
-    font-family: "Monoton", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-.roboto-body {
-    font-family: "Roboto", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-    font-variation-settings:"wdth" 100;
-}
-p {
-    font-size:1.2rem;
-    margin:0 0 2rem;
-}
-.image-link {
-    color: #4CAF50; 
-    text-decoration: none;
-}
-
-</style> 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Roboto+Slab&family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">   
+<link rel="stylesheet" href="styles.css" type="text/css" charset="utf-8" />
 </head>
 <body>
     <article>
