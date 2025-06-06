@@ -5,4 +5,4 @@ The CSV contains rows of cars: their model, make, year, and number of engine cyl
 
 The PHP function loads the CSV, and iterates through the rows, printing each record out into an HTML table. It also creates a Google Image Search query by combining values from each column into a clickable link.
 
-You can view a demo of this code at: <a href="https://nkraft.net/cars/"></a>
+You can view a demo of this code at: [https://nkraft.net/cars/](https://nkraft.net/cars/)
